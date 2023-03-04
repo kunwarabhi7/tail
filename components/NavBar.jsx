@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div className="w-full h-12 flex items-center justify-between m-2 mx-auto">
       <div>
-        <h1 className="text-orange-500 text-xl">Abhishek</h1>
+        <h1 className="text-orange-600 text-xl">Abhishek</h1>
       </div>
       <div className=" border-2 border-gray-400 px-1 h-7 hidden lg:flex">
         <FiSearch size={20}/>
@@ -27,8 +27,8 @@ const NavBar = () => {
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30}  />}
 
       </div>
-      {nav ?  <div className="flex absolute top-0 uppercase left-0 space-y-10 h-full p-8  w-64 border-r-2 lg:hidden flex-col">
-     <h1 className="text-orange-500 text-xl">Abhishek</h1>
+      {nav ?  <div className="flex absolute top-0 uppercase left-0  space-y-10 h-full p-8  w-[60%] border-r-2 lg:hidden flex-col">
+     <h1 className="text-orange-600 text-xl">Abhishek</h1>
 
      <Link  href={'#'}>Home</Link>
         <Link href={'#'}>Company</Link>
