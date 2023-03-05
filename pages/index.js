@@ -1,6 +1,7 @@
 import Company from '@/components/Company'
 import Hero from '@/components/Hero'
 import NavBar from '@/components/NavBar'
+import NewsLater from '@/components/NewsLater'
 import Head from 'next/head'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
    <NavBar />
    <Hero />
    <Company />
+   <NewsLater />
     </>
   )
 }
