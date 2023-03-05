@@ -10,9 +10,9 @@ const NavBar = () => {
   return (
     <div className="w-full h-12 flex items-center justify-between m-2 mx-auto">
       <div>
-        <h1 className="text-orange-600 text-xl">Abhishek</h1>
+        <h1 className="text-orange-600 ml-3 text-xl">Abhishek</h1>
       </div>
-      <div className=" border-2 border-gray-400 px-1 h-7 hidden lg:flex">
+      <div className=" border-2 border-gray-400 px-1 h-7 ml-64 mt-5 hidden lg:flex">
         <FiSearch size={20}/>
         <input placeholder="Type here..." className=" px-2"/>
       </div>
