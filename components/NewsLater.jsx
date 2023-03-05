@@ -2,7 +2,7 @@ import React from "react";
 
 const NewsLater = () => {
   return (
-    <div className="my-4 space-y-1 mx-4 flex flex-col md:flex-row justify-between items-center">
+    <div id="sec3" className="my-4 space-y-1 mx-4 flex flex-col md:flex-row justify-between items-center">
       <div className="text-center">
         {" "}
         <h1>Want tips & tricks to optimize your flow ?</h1>

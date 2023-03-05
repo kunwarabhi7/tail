@@ -3,7 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = {
-  //...
-  plugins: [require("daisyui")],
-}
+module.exports = nextConfig

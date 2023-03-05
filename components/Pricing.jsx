@@ -3,7 +3,7 @@ import { HiUser, HiUserGroup, HiUsers } from "react-icons/hi";
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between px-7 bg-white text-black    space-y-6 w-full h-full py-8  items-center ">
+    <div id="sec4" className="flex flex-col md:flex-row justify-between px-7 bg-white text-black    space-y-6 w-full h-full py-8  items-center ">
       <div className="shadow-md bg-white w-64 h-60 text-black  font-semibold translation ease-in-out delay-150 cursor-pointer hover:translate-y-1 hover:scale-110 ">
         <HiUser size={30} className="bg-white mx-auto" fill="black" />
 

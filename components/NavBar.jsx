@@ -8,7 +8,7 @@ const NavBar = () => {
         setNav(!nav)
     }
   return (
-    <div className="w-full h-12 flex items-center justify-between m-2 mx-auto">
+    <div className="w-full h-12 flex items-center justify-between m-2 mx-auto fixed top-2">
       <div>
         <h1 className="text-orange-600 ml-3 text-xl">Abhishek</h1>
       </div>
@@ -17,24 +17,24 @@ const NavBar = () => {
         <input placeholder="Type here..." className=" px-2"/>
       </div>
       <div className=" items-center space-x-3 mr-3 hidden lg:flex">
-      <Link  href={'#'}>Home</Link>
-        <Link href={'#'}>Company</Link>
-        <Link href={'#'}>Resources</Link>
-        <Link href={'#'}>About</Link>
-        <Link href={'#'}>Contact</Link>
+      <Link  href="#sec1">Home</Link>
+        <Link href="#sec2">Company</Link>
+        <Link href="#sec3">Resources</Link>
+        <Link href="#sec4">About</Link>
+        <Link href="#sec5">Contact</Link>
       </div>
-      <div className="lg:hidden m-2" onClick={handleNav}>
+      <div className="lg:hidden m-2 fixed right-0" onClick={handleNav}>
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30}  />}
 
       </div>
-      {nav ?  <div className="flex absolute top-0 uppercase left-0  space-y-10 h-full p-8  w-[60%] border-r-2 lg:hidden flex-col">
+      {nav ?  <div onClick={handleNav} className="flex top-0 uppercase left-0 fixed  space-y-10 h-full p-8  w-[60%] border-r-2 lg:hidden flex-col">
      <h1 className="text-orange-600 text-xl">Abhishek</h1>
 
-     <Link  href={'#'}>Home</Link>
-        <Link href={'#'}>Company</Link>
-        <Link href={'#'}>Resources</Link>
-        <Link href={'#'}>About</Link>
-        <Link href={'#'}>Contact</Link>
+     <Link  href="#sec1">Home</Link>
+        <Link href="#sec2">Company</Link>
+        <Link href="#sec3">Resources</Link>
+        <Link href="#sec4">About</Link>
+        <Link href="#sec5">Contact</Link>
      </div>  : ''}
     
     </div>

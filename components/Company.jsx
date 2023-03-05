@@ -2,7 +2,7 @@ import React from "react";
 
 const Company = () => {
   return (
-    <div className="w-full   sm:my-16 mx-auto ">
+    <div id="sec2" className="w-full   sm:my-16 mx-auto ">
       <div className="grid w-full h-screen  md:grid-cols-2  ">
         <div className="w-full   ">
           <img className="w-full h-full mt-8 md:mt-0 object-fill" src="https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg" />

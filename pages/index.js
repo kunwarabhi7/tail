@@ -1,4 +1,5 @@
 import Company from '@/components/Company'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import NavBar from '@/components/NavBar'
 import NewsLater from '@/components/NewsLater'
@@ -19,6 +20,7 @@ export default function Home() {
    <Company />
    <NewsLater />
    <Pricing />
+   <Footer />
     </>
   )
 }
